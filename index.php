@@ -370,7 +370,7 @@ if ($accion === 'editar_form') {
 
         <?php elseif ($accion === 'dietas'): ?>
             <?php $lista_dietas = obtenerTodasLasDietas($pdo); ?>
-            <h2>🥗 Tipos de Dieta</h2>
+            <h2> Tipos de Dieta</h2>
 
             <div class="card mb-3 bg-light">
                 <div class="card-body">
